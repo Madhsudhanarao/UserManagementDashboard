@@ -1,0 +1,23 @@
+{
+  "name": "usermanagementdashboard",
+  "version": "1.0.0",
+  "description": "User Management Dashboard",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /UserManagementDashboard",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "parcel": "^2.13.0"
+  },
+  "homepage": "https://Madhsudhanarao.github.io/UserManagementDashboard/",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "gh-pages": "^6.2.0",
+    "process": "^0.11.10"
+  },
+  "main": "api.js"
+}
